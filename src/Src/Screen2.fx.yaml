@@ -24,6 +24,7 @@
         FontColor: =
         FontSize: =28
         Height: =52
+        OnSelect: =SubmitForm(Form1)
         Text: ="Add Product"
         Width: =250
         X: =560
