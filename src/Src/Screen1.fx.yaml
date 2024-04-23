@@ -8,8 +8,8 @@ Screen1 As screen:
         TemplatePadding: =0
         TemplateSize: =100
         Width: =784
-        X: =319
-        Y: =193
+        X: =144
+        Y: =114
         ZIndex: =1
 
         Image3 As image:
