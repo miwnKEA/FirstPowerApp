@@ -26,6 +26,7 @@
         Height: =52
         OnSelect: |-
             =SubmitForm(Form1);
+            NewForm(Form1);
             Navigate('Screen1', ScreenTransition.Fade)
         Text: ="Add Product"
         Width: =250
