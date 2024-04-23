@@ -91,6 +91,7 @@ Screen1 As screen:
         DisplayMode: =DisplayMode.Edit
         FontSize: =28
         Height: =52
+        OnSelect: =Navigate('Screen2', ScreenTransition.Fade)
         Text: ="Add Product"
         Width: =250
         X: =560
