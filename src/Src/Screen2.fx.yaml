@@ -24,7 +24,9 @@
         FontColor: =
         FontSize: =28
         Height: =52
-        OnSelect: =SubmitForm(Form1)
+        OnSelect: |-
+            =SubmitForm(Form1);
+            Navigate('Screen1', ScreenTransition.Fade)
         Text: ="Add Product"
         Width: =250
         X: =560
