@@ -36,7 +36,7 @@
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
             MaxLength: =DataSourceInfo([@'Orders-List'], DataSourceInfo.MaxLength, Title)
-            Required: =false
+            Required: =true
             Update: =DataCardValue1.Value
             Width: =428
             X: =0

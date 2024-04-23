@@ -460,7 +460,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey1",
@@ -758,7 +758,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue1",
@@ -978,7 +978,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage1",
@@ -2128,7 +2128,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible1",
@@ -2506,8 +2506,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -2559,7 +2559,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Title_DataCard1",
@@ -2580,7 +2580,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
