@@ -32,6 +32,7 @@
 
     Form1 As form.PowerApps_CoreControls_Form:
         DataSource: ='Orders-List'
+        DefaultMode: =FormMode.New
         Height: =306
         UseFluentV9Cards: =true
         Width: =1284
