@@ -3,42 +3,64 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Attachments_Column1": 17,
+    "DataTable1": 13,
     "Host": 3,
-    "Screen1": 4
+    "Price_Column1": 15,
+    "ProductImage_Column1": 16,
+    "Screen1": 4,
+    "Title_Column1": 14
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/23/2024 15:30:13",
+  "HeaderLastSavedDateTimeUTC": "04/23/2024 16:12:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "5dab7545-26d4-4ac8-b047-30b209adbe86": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/bf5093d7f0414994865ac3ca1c4e0556\""
+  },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "Orders-List": 0
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {},
   "OverridablePropertiesEntry": {
     "App": {},
+    "Attachments_Column1": {},
+    "DataTable1": {},
     "Host": {},
-    "Screen1": {}
+    "Price_Column1": {},
+    "ProductImage_Column1": {},
+    "Screen1": {},
+    "Title_Column1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Attachments_Column1": 0,
+    "DataTable1": 0,
     "Host": 0,
-    "Screen1": 0
+    "Price_Column1": 0,
+    "ProductImage_Column1": 0,
+    "Screen1": 0,
+    "Title_Column1": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0203183,
-    "ControlCount": {}
+    "AnalysisLoadTime": 0.0422559,
+    "ControlCount": {
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.4452289
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
