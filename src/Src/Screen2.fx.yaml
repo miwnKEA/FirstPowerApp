@@ -27,7 +27,7 @@
         OnSelect: |-
             =SubmitForm(Form1);
             NewForm(Form1);
-            Navigate('Screen1', ScreenTransition.Fade)
+            Navigate(Screen1, ScreenTransition.Fade)
         Text: ="Add Product"
         Width: =250
         X: =560
@@ -61,6 +61,7 @@
 
             DataCardKey1 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -72,7 +73,9 @@
 
             "DataCardValue1 As 'Text input'":
                 AccessibleLabel: =Parent.DisplayName
+                BasePaletteColor: =
                 DisplayMode: =Parent.DisplayMode
+                FontColor: =
                 Height: =32
                 Mode: ="'TextInputCanvas.Mode'.TextInputModeSingleLine"
                 Required: =Parent.Required
@@ -85,6 +88,7 @@
 
             ErrorMessage1 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -97,6 +101,7 @@
             StarVisible1 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -122,6 +127,7 @@
 
             DataCardKey2 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =22
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -133,7 +139,9 @@
 
             "DataCardValue2 As 'Text input'":
                 AccessibleLabel: =If(Parent.Required, Substitute("{0}. Required.", "{0}", Parent.DisplayName), Parent.DisplayName)
+                BasePaletteColor: =
                 DisplayMode: =Parent.DisplayMode
+                FontColor: =
                 Height: =32
                 ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
                 Value: =Parent.Default
@@ -144,6 +152,7 @@
 
             ErrorMessage2 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: =Parent.Error
                 Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
@@ -156,6 +165,7 @@
             StarVisible2 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =30
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
@@ -181,6 +191,7 @@
 
             DataCardKey3 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =34
                 Text: =Parent.DisplayName
                 Weight: ='TextCanvas.Weight'.Semibold
@@ -210,6 +221,7 @@
 
             ErrorMessage3 As Text:
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =10
                 Size: =12
                 Text: =Parent.Error
@@ -222,6 +234,7 @@
             StarVisible3 As Text:
                 Align: ='TextCanvas.Align'.Center
                 DisplayMode: =DisplayMode.Edit
+                FontColor: =
                 Height: =DataCardKey3.Height
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)

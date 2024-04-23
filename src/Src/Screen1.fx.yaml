@@ -88,10 +88,14 @@ Screen1 As screen:
             ZIndex: =6
 
     ButtonCanvas1 As Button:
+        BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         FontSize: =28
         Height: =52
-        OnSelect: =Navigate('Screen2', ScreenTransition.Fade)
+        OnSelect: |-
+            =NewForm(Form1);
+            Navigate(Screen2, ScreenTransition.Fade)
         Text: ="Add Product"
         Width: =250
         X: =560
