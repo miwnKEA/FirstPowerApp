@@ -51,7 +51,8 @@ Screen1 As screen:
             Text: =ThisItem.Price
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
-            Y: =64
+            X: =103
+            Y: =65
             ZIndex: =3
 
         NextArrow2 As icon.ChevronRight:
