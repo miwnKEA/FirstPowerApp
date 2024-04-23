@@ -102,7 +102,7 @@
             DisplayName: =DataSourceInfo([@'Orders-List'],DataSourceInfo.DisplayName,Price)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =70
-            Required: =false
+            Required: =true
             Update: =Value(DataCardValue2.Value)
             Width: =428
             X: =1
