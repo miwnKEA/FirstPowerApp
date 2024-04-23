@@ -3,17 +3,20 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Attachments_Column1": 17,
-    "DataTable1": 13,
+    "Gallery1": 19,
+    "galleryTemplate1": 20,
     "Host": 3,
-    "Price_Column1": 15,
-    "ProductImage_Column1": 16,
+    "Image3": 27,
+    "NextArrow2": 30,
+    "Rectangle2": 32,
     "Screen1": 4,
-    "Title_Column1": 14
+    "Separator2": 31,
+    "Subtitle2": 29,
+    "Title2": 28
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/23/2024 16:12:58",
+  "HeaderLastSavedDateTimeUTC": "04/23/2024 16:16:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5dab7545-26d4-4ac8-b047-30b209adbe86": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/bf5093d7f0414994865ac3ca1c4e0556\""
@@ -24,35 +27,50 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
+    "CustomGallerySample": 1,
     "Orders-List": 0
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 2,
+    "image": 4,
+    "label": 3,
+    "rectangle": 1
+  },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Attachments_Column1": {},
-    "DataTable1": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
     "Host": {},
-    "Price_Column1": {},
-    "ProductImage_Column1": {},
+    "Image3": {},
+    "NextArrow2": {},
+    "Rectangle2": {},
     "Screen1": {},
-    "Title_Column1": {}
+    "Separator2": {},
+    "Subtitle2": {},
+    "Title2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Attachments_Column1": 0,
-    "DataTable1": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 0,
     "Host": 0,
-    "Price_Column1": 0,
-    "ProductImage_Column1": 0,
+    "Image3": 0,
+    "NextArrow2": 0,
+    "Rectangle2": 0,
     "Screen1": 0,
-    "Title_Column1": 0
+    "Separator2": 0,
+    "Subtitle2": 0,
+    "Title2": 0
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
