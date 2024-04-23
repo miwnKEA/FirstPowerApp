@@ -2,14 +2,15 @@ Screen1 As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
+        Height: =663
         Items: ='Orders-List'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =100
-        Width: =784
-        X: =144
-        Y: =114
+        Width: =1362
+        X: =4
+        Y: =2
         ZIndex: =1
 
         Image3 As image:
@@ -84,4 +85,14 @@ Screen1 As screen:
             Visible: =ThisItem.IsSelected
             Width: =4
             ZIndex: =6
+
+    ButtonCanvas1 As Button:
+        DisplayMode: =DisplayMode.Edit
+        FontSize: =28
+        Height: =52
+        Text: ="Add Product"
+        Width: =250
+        X: =560
+        Y: =688
+        ZIndex: =2
 
