@@ -245,7 +245,7 @@
                 =SubmitForm(Form1);
                 NewForm(Form1);
                 Navigate(Screen1, ScreenTransition.Fade)
-            Text: ="Add Product"
+            Text: ="Finish"
             Width: =250
             X: =716
             Y: =688
