@@ -18,22 +18,6 @@
         Y: =24
         ZIndex: =2
 
-    ButtonCanvas1_1 As Button:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        FontColor: =
-        FontSize: =28
-        Height: =52
-        OnSelect: |-
-            =SubmitForm(Form1);
-            NewForm(Form1);
-            Navigate(Screen1, ScreenTransition.Fade)
-        Text: ="Add Product"
-        Width: =250
-        X: =560
-        Y: =688
-        ZIndex: =3
-
     Form1 As form.PowerApps_CoreControls_Form:
         DataSource: ='Orders-List'
         Height: =306
@@ -243,4 +227,42 @@
                 X: =0
                 Y: =DataCardKey3.Y
                 ZIndex: =5
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =6
+
+        ButtonCanvas1_1 As Button:
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            FontColor: =
+            FontSize: =28
+            Height: =52
+            OnSelect: |-
+                =SubmitForm(Form1);
+                NewForm(Form1);
+                Navigate(Screen1, ScreenTransition.Fade)
+            Text: ="Add Product"
+            Width: =250
+            X: =716
+            Y: =688
+            ZIndex: =3
+
+        ButtonCanvas1_2 As Button:
+            BasePaletteColor: =
+            DisplayMode: =DisplayMode.Edit
+            FontColor: =
+            FontSize: =28
+            Height: =52
+            OnSelect: |-
+                =NewForm(Form1);
+                Navigate(Screen1, ScreenTransition.Fade)
+            Text: ="Back to Products"
+            Width: =250
+            X: =398
+            Y: =688
+            ZIndex: =5
 
