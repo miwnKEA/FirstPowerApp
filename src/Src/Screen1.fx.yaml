@@ -2,7 +2,7 @@ Screen1 As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =549
+        Height: =507
         Items: ='Orders-List'
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -10,7 +10,7 @@ Screen1 As screen:
         TemplateSize: =100
         Width: =1297
         X: =27
-        Y: =117
+        Y: =159
         ZIndex: =1
 
         Image3 As image:
@@ -97,13 +97,21 @@ Screen1 As screen:
         Y: =688
         ZIndex: =2
 
-    TextCanvas1 As Text:
+    RectQuickActionBar1_1 As rectangle:
+        BorderColor: =RGBA(189, 49, 51, 1)
+        Fill: =RGBA(189, 49, 51, 1)
+        Height: =124
+        Width: =Parent.Width
+        ZIndex: =3
+
+    TextCanvas1_2 As Text:
         DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(255, 255, 255, 1)
         Height: =68
         Size: =48
-        Text: ="Products"
+        Text: ="All Products"
         Width: =304
         X: =27
         Y: =24
-        ZIndex: =3
+        ZIndex: =4
 
